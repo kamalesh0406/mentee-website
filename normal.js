@@ -31,6 +31,7 @@ function addRow(){
 	newCell2.addEventListener("click",function(){edit(newCell2.parentNode.rowIndex);});
 	newCell3.addEventListener("click",function(){
 		table.deleteRow(newCell3.parentNode.rowIndex);
+		noofmentees--;
 	});
 
 	newCell1.appendChild(Name);
